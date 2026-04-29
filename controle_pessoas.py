@@ -1,11 +1,5 @@
-import textwrap
-from abc import ABC, abstractclassmethod, abstractproperty
 from datetime import datetime
 
-class Pessoa:
-    def __init__(self, ent_pessoa, ent_visit):
-        self.ent_pessoa = ent_pessoa
-        self.ent_visit = ent_visit
 
 class pessoa_morador:
     def __init__(self, nome_mor, apt_mor, tel_mor, car_mor, doc_mor):
